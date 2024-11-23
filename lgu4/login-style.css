@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    background: white;
+    flex-wrap: nowrap;
+}
+
+.wrapper{
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    color: rgb(5, 2, 2);
+    padding: 10px 10px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 30%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    padding: 20px 45px 20px 10px;
+
+}
+
+.input-box input::placeholder{
+    color: rgb(83, 75, 75);
+}
+
+.input-box i{
+    position: absolute ;
+    right: 20px;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forget{
+    color: rgba(63, 146, 255, 0.815);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: -15px 0 15px;
+}
+
+.remember-forget label input {
+    color: rgba(63, 146, 255, 0.815);
+    margin-right: none;
+}
+
+.remember-forget a{
+    color: rgba(63, 146, 255, 0.815);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: rgb(63, 146, 255);
+    border: 3px solid rgb(63, 146, 255);
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(17, 0, 0);
+    font-weight: 600;
+}
+.wrapper .btn:hover{
+    background: rgb(12, 12, 255);
+    color: #fff;
+}
+
+
+.wrapper .register-link {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: rgb(63, 146, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .separator{
+    margin: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.wrapper .separator span{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.wrapper .separator::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #b4b4b4;
+}
+
+.wrapper .media-account{
+    padding-top: 15px;
+    display: flex;
+    gap: 50px;
+}
+
+.wrapper .media-account button{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #f9f8ff;
+    border: 1px solid #d5cbff;
+    background: rgb(63, 146, 255);
+}
+.wrapper .media-account button .social-icon{
+    width: 30px;
+}
+.wrapper .media-account button:hover{
+    background: rgb(12, 12, 255);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#map {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
